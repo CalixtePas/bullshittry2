@@ -1,0 +1,55 @@
+
+
+.about-section {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #ffffff; /* Fond blanc pour la section À Propos */
+}
+
+.about-section h2 {
+    color: #333; /* Couleur du titre de la section À Propos */
+}
+.banner {
+    background-size: cover;
+    background-position: center;
+    height: 200px; /* Ajustez la hauteur de la bannière selon vos besoins */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+h1 {
+    color: #ffffff;
+    font-size: 64px;
+    margin: 10px 0;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+}
+
+h2 {
+    color: #ffffff;
+    margin: 5px 0;
+    font-size: 28px;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+}
+.btn-blue {
+    background-color: #CCAD8F; /* Couleur de fond */
+    color: #ffffff; /* Couleur du texte (blanc) */
+    padding: 10px 20px; /* Ajustez le rembourrage pour un meilleur aspect */
+    text-decoration: none; /* Supprime la décoration du texte */
+    border-radius: 5px; /* Coins arrondis */
+    transition: background-color 0.3s, color 0.3s; /* Transition pour le changement de couleur */
+}
+
+.btn-blue:hover {
+    background-color: #262626; /* Couleur du bouton au survol */
+    color: #FFD700; /* Couleur du texte au survol (or) */
+}
